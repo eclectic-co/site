@@ -1,4 +1,4 @@
 ---
 template: overrides/home.html
-title: eclectic company
+title: eclectic company spc
 ---
