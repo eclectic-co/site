@@ -125,7 +125,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - About: About.md
-  - Projects and Cast Studies:
+  - Projects and Case Studies:
     - Tacoma Consignment: Tacoma_consignment.md
 
 # Google Analytics
