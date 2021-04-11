@@ -26,8 +26,8 @@ site_description: >-
   eclectic company is a Washington State social purpose corportation
 
 # Repository
-repo_name: 
-repo_url: https://github.com/eclectic-co
+repo_name: site
+repo_url: https://github.com/eclecticom
 edit_uri: ""
 
 # Copyright
@@ -71,17 +71,15 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/squidfunk
-    - icon: fontawesome/brands/gitter
-      link: https://gitter.im/squidfunk/mkdocs-material
+      link: https://github.com/eclecticom
     - icon: fontawesome/brands/docker
       link: https://hub.docker.com/r/squidfunk/mkdocs-material/
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/squidfunk
+      link: https://twitter.com/rcofthedunedain
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/squidfunk/
+      link: https://linkedin.com/in/therealrc
     - icon: fontawesome/brands/instagram
-      link: https://instagram.com/squidfunk
+      link: https://instagram.com/bobbyc
 
 # Extensions
 markdown_extensions:
@@ -127,7 +125,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - About: About.md
-  - Use Cases:
+  - Projects and Cast Studies:
     - Tacoma Consignment: Tacoma_consignment.md
 
 # Google Analytics
