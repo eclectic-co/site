@@ -37,7 +37,7 @@ At this point it's now adressing the wider set of issues outside the now unified
 
 ### Product (and consignor) onboarding and management
 
-One of the core goals of this next website and commerce iteration is to simplify the process of creating and managing skus as well as consignors. Lindsey is the sole creative force behind inventory, but her success in getting in the way of more success.
+One of the core goals of this next website and commerce iteration is to simplify the process of creating and managing skus as well as consignors.
 
 The core challenge is figuring out the proper management of a set of interconnected tasks:
 
