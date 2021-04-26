@@ -7,39 +7,103 @@
 
 After a series of interviews with management and staff it became clear that, while successful and growing, all the disjoint processes of managing clients, consignors, and deliveries are creating a lot of strain.
 
+## Decisions to date 
+
+* Shopify
+* Shopify POS
+* Domain management by RC
+* No more Wordpress
+* Quickbooks export via app or workflow (see below)
+
 ## Goals
 
 The core intent of this project is to systematize the merchandise intake and SKU creation workflow to simplify the organization, merchandizing, sales, consignor payments, and logistics processes.
 
-In addition, though, one process critical to the success and aesthetic of Tacoma Consignment is better recognition and incorporation of the *design process* the owners apply to evaluating and organizing the products in the showroom and, potentially, for sale online.  Products are organized into stylistic groupings in the store, and inbound product inquiries are evaluated by how well they fit within the different design sensibilities on offer. 
+## Current Status
 
-Fundamentally, however, because the [current POS implementation](https://quickbooks.intuit.com/oa/point-of-sale/) is principally focussed on in-store transactions, the opportunities for collection-based merchandising possible with online systems are not leveraged as much as they might be.
+The Tacoma Consignment team is already underway with the transition to a Shopify-driven website. When the site is working, the Wordpress site will be decommissioned. (RC is poised to make the relevant domain changes when ready) 
 
-## Current Core Workflow
+In addition, the team will transition the POS system to [Shopify POS](https://www.shopify.com/pos/features). This will enable a single back end for both in-store and online sales, as well as a single source of product truth.
+
+## Next Steps / Issues to address
+
+At this point it's now adressing the wider set of issues outside the now unified commerce / POS.
+
+* Product (and consignor) onboarding
+* CRM decision
+* Wishlist management and updates, including sectional pre-ordering
+* Integration with Quickbooks for accounting
+* Email and domain management
+
+### Product (and consignor) onboarding and management
+
+One of the core goals of this next website and commerce iteration is to simplify the process of creating and managing skus as well as consignors. Lindsey is the sole creative force behind inventory, but her success in getting in the way of more success.
+
+The core challenge is figuring out the proper management of a set of interconnected tasks:
+
+* evaluating and onboarding product submissions from new and existing consignors
+* managing deals, payouts, pricing, and commissions for consignors
+* simplifying the sku creation flow into Shopify
+* making sure skus are linked with consignors
+
+While many aspects of consignor management can be handled by an extension (see below), it is unclear how that extension will work with or potentially be in conflict with other features planned (specifically the CRM system)
+
+### CRM decision
+
+Whatever direction Tacoma Consignment is headed with consignor management, some kind of CRM system should be contemplated for long-term management of Tacoma Consignment's *customers*. With a single POS system and the entire TC catalog available online, multiple opportunities exist to build a more collaborative and insightful interaction with customers.
+
+Features such as wishlists and recommendations are tailor-made for interested customers to track activities and products they care about.  Products that can be re-stocked can trigger emails to interested customers automatically when they come back into stock, for example.
+
+Depending on the CRM choice, other features may be possible as well, such as the automated SKU-onboarding flow previously discussed for Jotform; direct support in a CRM would be less expensive and more reliable than another fully decoupled app and subscription.
+
+In addition, it's conceivable, and in many ways desirable, to have a single CRM system for both consignors and customers. As is already known, many consignors *are* customers and there is reason to believe some TC's *best* customers are also its best *consignors*. Without a unified view of the people interacting with TC, it will be hard to pull that information out systematically and in a way that informs feature and product prioritization.
+
+#### Resources / articles
+
+* [Best CRMs that integrate with Shopify](https://ecommerce-platforms.com/ecommerce-selling-advice/the-best-crms-that-integrate-with-shopify-a-comparison)
+
+### Wishlist features and management, including sectional pre-ordering
+
+Wishlist features are already built into Shopify at the product level, however the real challenge of the current process is the manual, paper-based process for tracking and following up with customers.
+
+More discussion on the existing process is necessary to understand how to properly manage the types of wishlist capabilities necessary, including how sectional pre-ordering may occur. It is worth noting that some kind of CRM system is assumed for any scalable solution.
+### Integration with Quickbooks for accounting
+
+Quickbooks integration is expected, however there are multiple mechanisms for accomplishing the proper reporting for the accountants / bookkeepers.  The decision on how to it should be made *after* deciding on the CRM and consignor management system(s).
+
+### Email and domain management
+
+Depending on decisions about Outlook and CRM, email configuration will follow.
+
+## Earlier version of spec
+
+### Shopify POS and commerce-enabled website
+
+!!! info
+    This decision has been made and is in effect
 
 
-![Tacoma Consignment Current Workflow](assets/images/Tacoma%20Consignment%20Current%20Workflow.png)
+#### Consignor reimbursement via Shopify Extension
 
-### Quickbooks POS
+!!! alert
+    This is being evaluated. While this may be an excellent option for consignors, it is unclear how this system would integrate with other capabilities / features such as SKU creation and CRM integration. 
 
-  * SKU creation
-  * Sales
-  * Bookkeeping / accounting
+The current candidate for managing consignors is the $24.99 / month [Vendor Consignment Shopify extension](https://apps.shopify.com/vendor-consignment) app
 
-### Ability Business Systems
 
-  * Consignor Payments
+![screenshot of Visceral Apps Vendor Consignment app](https://cdn.shopify.com/app-store/listing_images/403324901671043924b52ffa719a59ad/desktop_screenshot/CNyn7bP0lu8CEAE=.jpg)
 
-### Wordpress website
 
-The [tacomaconsignment.com website](https://tacomaconsignment.com) is based on a [Wordpress CMS](https://builtwith.com/tacomaconsignment.com). While WooCommerce plug-ins and product- and cateogyry-page displays are supported, commerce is not. Social links are enabled at the site level and point at the Tacoma Consignment accounts rather than enabling product- or page-level sharing.
+#### [Quickbooks export via Shopify Extension](https://apps.shopify.com/search?q=quickbooks)
 
-## Recommended Approach
-
-Tacoma Consignment had independently been considering Shopify as an option for online sales. We wholeheartedly support this. 
+!!! warning
+    This is being evaluated as potentially being accomplished via an automated export rather than a paid app
 
 
 ### [Jotform](https://jotform.com) forms-based intake workflow
+
+!!! danger
+    This section is no longer active or in effect (see above)
 
   * [product image submissions](https://www.jotform.com/widgets/category/photo), including classifications for collections
   * dislosures and assertions (e.g. no smells or stains, etc.)
@@ -47,25 +111,10 @@ Tacoma Consignment had independently been considering Shopify as an option for o
   * [custom-generated printable contract PDF](https://www.jotform.com/pdf-templates/new-pdf)
   * acceptance and rejection workflows
 
-#### (optional) Consignor account creation
-  * dashboard to track their submitted inventory, sales
-  * (see below) points for retail redemption
-* Shopify-based SKU creation
-
-### Shopify POS and commerce-enabled website
-
-#### [Consignor reimbursement via Shopify Extension](https://apps.shopify.com/search?q=vendor+payments)
-
-#### [Quickbooks export via Shopify Extension](https://apps.shopify.com/search?q=quickbooks)
-
-## Other Options
-
-* Integration with CRM Systems
-* Discount codes and promotions
-* Points system for in-store credit / consignor sales
-* Publish to third-party systems (Craigslist, ebay, OfferUp, etc.)
-
 ## Cost Estimation
+
+!!! alert
+    This section is somewhat obviated / deprecated based on earlier discussion
 
 | Service | Plan | Monthly  |  Notes |
 | ---- | ---- | --- | ---- | 
