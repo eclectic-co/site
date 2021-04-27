@@ -58,6 +58,14 @@ Depending on the CRM choice, other features may be possible as well, such as the
 
 In addition, it's conceivable, and in many ways desirable, to have a single CRM system for both consignors and customers. As is already known, many consignors *are* customers and there is reason to believe some TC's *best* customers are also its best *consignors*. Without a unified view of the people interacting with TC, it will be hard to pull that information out systematically and in a way that informs feature and product prioritization.
 
+#### CRM Mini-Teardown
+
+| System | Price | Pros | Cons | Notes |
+| ---- | ---- | ---- | ---- | ---- |
+| [Sendinblue](https://www.sendinblue.com/) | [email-based pricing plans](https://www.sendinblue.com/pricing/) likely **$65** per month | multi-channel marketing; strong newsletter, transactional email | would likely still require zoho or other forms-based solution  | new system w/ full api support; positions itself more against mailchimp than other CRMs |
+|[Zoho Bigin](https://www.zoho.com/bigin/) | [$7 per user per month](https://www.zoho.com/bigin/pricing.html) |super-low per user pricing; includes zoho flow workflow tool support which integrates with shopify; super cool email support capability not available on basic zoho (which is more expensive)[rc^1] | deal-flow-based pipeline could be unintutive; don't know full capabilities of forms versus jotform | new small-business optimized system from zoho (see this [comparing zoho v bigin zoho](https://www.zoho.com/bigin/compare-zohocrm-editions.html?src=biginpricing))|
+|[Zoho](https://www.zoho.com/crm/crmplus/) | min $12 per user per month ([likely $20 per user per month](https://www.zoho.com/crm/zohocrm-pricing.html)) | richest feature set; strong forms support; most robust, flexible system | likely most complex; more expensive per user |foundational zoho product |
+
 #### Resources / articles
 
 * [Best CRMs that integrate with Shopify](https://ecommerce-platforms.com/ecommerce-selling-advice/the-best-crms-that-integrate-with-shopify-a-comparison)
@@ -99,7 +107,6 @@ The current candidate for managing consignors is the $24.99 / month [Vendor Cons
 !!! warning
     This is being evaluated as potentially being accomplished via an automated export rather than a paid app
 
-
 ### [Jotform](https://jotform.com) forms-based intake workflow
 
 !!! danger
@@ -122,4 +129,3 @@ The current candidate for managing consignors is the $24.99 / month [Vendor Cons
 | [Shopify](https://shopify.com) | [Basic or standard](https://www.shopify.com/payments) [with POS](https://www.shopify.com/pos/features) | $29 / $79 | [Shopify Pro POS](https://www.shopify.com/pos/features) is an additional $89/month but offers *a lot* and should be considered (perhaps Basic plan + Pro POS?) |  
 | Shopify Extensions | n/a | $15-30 per extension | many different options; worth researching | 
 | **Total** |  | ***$100-260*** | at $190+ level serious functionality enabled |
-
