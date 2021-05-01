@@ -66,6 +66,7 @@ theme:
 # Plugins
 plugins:
   - search
+  - mermaid2
 
 # Customization
 extra:
@@ -115,7 +116,7 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+          format: !!python/name:mermaid2.fence_mermaid
   - pymdownx.tabbed
   - pymdownx.tasklist:
       custom_checkbox: true
@@ -128,7 +129,3 @@ nav:
   - Projects and Case Studies:
     - Tacoma Consignment: Tacoma_consignment.md
 
-# Google Analytics
-google_analytics:
-  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
-  - auto
