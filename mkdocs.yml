@@ -114,8 +114,8 @@ markdown_extensions:
   - pymdownx.smartsymbols
   - pymdownx.superfences:
       custom_fences:
-        - name: mermaid
-          class: mermaid
+        - name: mermaid2
+          class: mermaid2
           format: !!python/name:mermaid2.fence_mermaid
   - pymdownx.tabbed
   - pymdownx.tasklist:
