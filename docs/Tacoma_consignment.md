@@ -61,7 +61,13 @@ Wishlist features are already built into Shopify at the product level, however t
 
 More discussion on the existing process is necessary to understand how to properly manage the types of wishlist capabilities necessary, including how sectional pre-ordering may occur. 
 
-### Consignor product discount wishlist flow
+### General-purpose wishlist request flow
+
+![General-purpose wishlisht request flow](assets/images/general-purpose-wishlist.png)
+
+!!! Note
+    This process can work for sectional ordering as well
+### Product discount-schedule-based wishlist flow
 
 ![Consignor product discount wishlist flow](assets/images/product-wishlist.png)
 
