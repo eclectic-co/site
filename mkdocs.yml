@@ -121,5 +121,7 @@ nav:
   - Home: index.md
   - About: About.md
   - Projects and Case Studies:
-    - Tacoma Consignment: Tacoma_consignment.md
+    - Tacoma Consignment:
+      - Project Overview: Tacoma_consignment.md
+      - Creating Products: Creating_products.md
 

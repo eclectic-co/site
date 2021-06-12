@@ -1,6 +1,7 @@
 # Tacoma Consignment
 
 ![Tacoma Consignnment logo](assets/images/tacoma_consignment_logo.png)
+
 ## Goals
 
 The core intent of this project is to systematize the merchandise intake and SKU creation workflow to simplify the organization, merchandizing, sales, consignor payments, and logistics processes of [Tacoma Consignment](https://www.tacomaconsignment.com), a growing 2-year-old consignment business in downtown Tacoma, Washington.
@@ -17,12 +18,11 @@ The core intent of this project is to systematize the merchandise intake and SKU
 
 ## Previous Status (4/24)
 
-The Tacoma Consignment team is already underway with the transition to a Shopify-driven website. When the site is working, the Wordpress site will be decommissioned. (RC is poised to make the relevant domain changes when ready) 
+The Tacoma Consignment team is already underway with the transition to a Shopify-driven website. When the site is working, the Wordpress site will be decommissioned. (RC is poised to make the relevant domain changes when ready)
 
 In addition, the team will transition the POS system to [Shopify POS](https://www.shopify.com/pos/features). This will enable a single back end for both in-store and online sales, as well as a single source of product truth.
 
-
-## Decisions to date 
+## Decisions to date
 
 * Shopify
 * Shopify POS
@@ -32,7 +32,6 @@ In addition, the team will transition the POS system to [Shopify POS](https://ww
 * Quickbooks export via app or workflow (see below)
 
 ## [Active] Product (and consignor) onboarding and management (updated 4/30)
-
 
 !!! alert
     This is an active proposal for your consideration
@@ -53,13 +52,13 @@ The diagram currently shows an approval process where a product submission from 
 ![product onboarding](assets/images/tc-product-onboarding.png)
 
 !!! Recommendation
-    Even though the current contract does not explicitly address discounting, we recommend a standard discounting schedule be pursued to facilitate inventory turnover as well as [enable wishlist alerts](#active-wishlist-features-and-management) for interested online followers of products 
+    Even though the current contract does not explicitly address discounting, we recommend a standard discounting schedule be pursued to facilitate inventory turnover as well as [enable wishlist alerts](#active-wishlist-features-and-management) for interested online followers of products
 
 ## [Active] Wishlist features and management
 
 Wishlist features are already built into Shopify at the product level, however the real challenge of the current process is the manual, paper-based process for tracking and following up with customers.
 
-More discussion on the existing process is necessary to understand how to properly manage the types of wishlist capabilities necessary, including how sectional pre-ordering may occur. 
+More discussion on the existing process is necessary to understand how to properly manage the types of wishlist capabilities necessary, including how sectional pre-ordering may occur.
 
 ### General-purpose wishlist request flow
 
@@ -67,9 +66,18 @@ More discussion on the existing process is necessary to understand how to proper
 
 !!! Note
     This process can work for sectional ordering as well
+
 ### Product discount-schedule-based wishlist flow
 
 ![Consignor product discount wishlist flow](assets/images/product-wishlist.png)
+
+### Key Links
+
+* Power automate connectors
+  * [Jotform](https://flow.microsoft.com/en-us/connectors/shared_jotform/jotform/)
+  * Google calendar
+  * [Mailchimp](https://flow.microsoft.com/en-us/search/?q=mailchimp)
+  * Shopify
 
 ## [Upcoming] Email
 
@@ -111,17 +119,14 @@ Quickbooks integration is expected, however there are multiple mechanisms for ac
 !!! info
     This decision has been made and is in effect
 
-
 #### Consignor reimbursement via Shopify Extension
 
 !!! alert
-    This is being evaluated. While this may be an excellent option for consignors, it is unclear how this system would integrate with other capabilities / features such as SKU creation and CRM integration. 
+    This is being evaluated. While this may be an excellent option for consignors, it is unclear how this system would integrate with other capabilities / features such as SKU creation and CRM integration.
 
 The current candidate for managing consignors is the $24.99 / month [Vendor Consignment Shopify extension](https://apps.shopify.com/vendor-consignment) app
 
-
 ![screenshot of Visceral Apps Vendor Consignment app](https://cdn.shopify.com/app-store/listing_images/403324901671043924b52ffa719a59ad/desktop_screenshot/CNyn7bP0lu8CEAE=.jpg)
-
 
 #### [Quickbooks export via Shopify Extension](https://apps.shopify.com/search?q=quickbooks)
 
@@ -133,11 +138,11 @@ The current candidate for managing consignors is the $24.99 / month [Vendor Cons
 !!! info
     This section is being developed
 
-  * [product image submissions](https://www.jotform.com/widgets/category/photo), including classifications for collections
-  * dislosures and assertions (e.g. no smells or stains, etc.)
-  * [contract / terms acceptance](https://www.jotform.com/form-templates/category/consent-forms) and [digital signature](https://www.jotform.com/pdf-templates/search?q=digital+signature)   
-  * [custom-generated printable contract PDF](https://www.jotform.com/pdf-templates/new-pdf)
-  * acceptance and rejection workflows
+* [product image submissions](https://www.jotform.com/widgets/category/photo), including classifications for collections
+* dislosures and assertions (e.g. no smells or stains, etc.)
+* [contract / terms acceptance](https://www.jotform.com/form-templates/category/consent-forms) and [digital signature](https://www.jotform.com/pdf-templates/search?q=digital+signature)
+* [custom-generated printable contract PDF](https://www.jotform.com/pdf-templates/new-pdf)
+* acceptance and rejection workflows
 
 ## Cost Estimation
 
@@ -145,8 +150,8 @@ The current candidate for managing consignors is the $24.99 / month [Vendor Cons
     This section is somewhat obviated / deprecated based on earlier discussion
 
 | Service | Plan | Monthly  |  Notes |
-| ---- | ---- | --- | ---- | 
+| ---- | ---- | --- | ---- |
 | [Jotform](https://www.jotform.com/) | Bronze | $29 | Storage limit drives choice, assuming photo submission |
 | [Shopify](https://shopify.com) | [Basic or standard](https://www.shopify.com/payments) [with POS](https://www.shopify.com/pos/features) | $29 / $79 | [Shopify Pro POS](https://www.shopify.com/pos/features) is an additional $89/month but offers *a lot* and should be considered (perhaps Basic plan + Pro POS?) |  
-| Shopify Extensions | n/a | $15-30 per extension | many different options; worth researching | 
+| Shopify Extensions | n/a | $15-30 per extension | many different options; worth researching |
 | **Total** |  | ***$100-260*** | at $190+ level serious functionality enabled |
