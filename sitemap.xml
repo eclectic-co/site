@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://eclectic.company/</loc>
+         <lastmod>2021-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://eclectic.company/About/</loc>
+         <lastmod>2021-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://eclectic.company/Creating_products/</loc>
+         <lastmod>2021-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://eclectic.company/Tacoma_consignment/</loc>
+         <lastmod>2021-06-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
