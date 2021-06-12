@@ -31,68 +31,60 @@ If this is a new product, you can leave this field blank.
 
 ## Enter product type
 
-
 ![product type](assets/images/product-type.jpg)
 
-markdown
-
-Living Room Furniture
-    Sofa + Sectional Collections
-    Sectionals
-    Sofas + Loveseats
-    Chairs
-    Coffee Tables
-    Side + End Tables
-    Console + Sofa Tables
-    Ottomans + Stools
-    TV Stands + Media Consoles
-Bedroom Furniture
-    Bedroom Collections
-    Beds
-    Headboards
-    Nightstands
-    Dressers + Armoires
-    Mattresses + Foundations
-    Benches 
-Lighting
-    Chandeliers
-    Pendants
-    Flushmounts
-    Ceiling Fans
-    Table + Desk Lamps
-    Floor Lamps
-    Wall Lighting
-    Sconces
-    Vanity Lighting
-Art
-    Paintings
-    Dimensional Art + Sculpture
-    Fabric Art + Wall Hangings
-    Wall Art Sets
-    Photography
-    Posters + Maps
-    Drawings
-Decor
-    All Pillows, Throws + Poufs
-        Pillows
-        Pillow Inserts
-        Throws
-        Outdoor Pillows
-        Poufs + Floor Pillows
-        Pillows & Throws Sets + Bundles
-    Candlelight + Diffusers
-
-    Vases + Centerpiece Bowls
-    Baskets + Storage
-    Decorative Objects + Sculptures
-    Picture Frames
-    Decorative Trays
-    Jewelry Boxes + Stands
-    Books + Bookends
-
-    
-
-);
+* Living Room Furniture
+  * Sofa and Sectional Collections
+    * Sectionals
+    * Sofas and Loveseats
+    * Chairs
+  * Coffee Tables
+    * Side and End Tables
+    * Console and Sofa Tables
+  * Ottomans and Stools
+  * TV Stands and Media Consoles
+* Bedroom Furniture
+  * Bedroom Collections
+  * Beds
+  * Headboards
+  * Nightstands
+  * Dressers and Armoires
+  * Mattresses and Foundations
+  * Benches
+* Lighting
+  * Chandeliers
+  * Pendants
+  * Flushmounts
+  * Ceiling Fans
+  * Table and Desk Lamps
+  * Floor Lamps
+  * Wall Lighting
+  * Sconces
+  * Vanity Lighting
+* Art
+  * Paintings
+  * Dimensional Art and Sculpture
+  * Fabric Art and Wall Hangings
+  * Wall Art Sets
+  * Photography
+  * Posters and Maps
+  * Drawings
+* Decor
+  * All Pillows, Throws and Poufs
+    * Pillows
+    * Pillow Inserts
+    * Throws
+    * Outdoor Pillows
+    * Poufs and Floor Pillows
+    * Pillows & Throws Sets and Bundles
+  * Candlelight and Diffusers
+  * Vases and Centerpiece Bowls
+  * Baskets and Storage
+  * Decorative Objects and Sculptures
+  * Picture Frames
+  * Decorative Trays
+  * Jewelry Boxes and Stands
+  * Books and Bookends
 
 ## Enter product design
 
@@ -121,9 +113,6 @@ All furniture should have the following product variants:
   * Height
   * Width
   * Depth
-
-
-
 
 ### Art
 
